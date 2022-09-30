@@ -32,13 +32,7 @@ public class Activity2 {
 
                 state = 2;
 
-            else if (state == 2 && input.charAt(i) == 'a')
-
-                state = 1;
-
-            else if (state == 2 && input.charAt(i) == 'b')
-
-                state = 2;
+        
 
             else
 
@@ -54,11 +48,11 @@ public class Activity2 {
 
         if (state == 1)
 
-            System.out.println("Accepted");
+            System.out.println("String is Accepted");
 
         else
 
-            System.out.println("Rejected");
+            System.out.println("String is Rejected");
 
     }
 

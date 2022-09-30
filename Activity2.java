@@ -6,6 +6,7 @@ public class Activity2 {
         Scanner sc = new Scanner(System.in);
         System.out.print("INPUT STRING: ");
         String input = sc.nextLine();
+        System.out.println("The String input is: "+input);
         int state = 0;
         for (int i = 0; i < input.length(); i++)
         {

@@ -1,5 +1,5 @@
-import java.util.*;
-class Main {
+import java.util.Scanner;
+public class Activity1 {
     
     public static void main(String[] args) {
   Scanner input  = new Scanner(System.in);
